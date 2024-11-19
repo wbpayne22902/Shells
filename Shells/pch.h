@@ -8,7 +8,10 @@
 #define PCH_H
 
 // add headers that you want to pre-compile here
+#ifdef _WIN32
 #include <Windows.h>
+#endif
+
 #include <string>
 #include "hoo.h"
 #endif //PCH_H

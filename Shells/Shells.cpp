@@ -17,7 +17,9 @@ int main() {
 	cout << "The e's name is " << e.getName() << endl;
 	cout << "The n's name is " << n.getName() << endl;
 	cout << "The l's name is " << l->getName() << " and age is " << l->getAge() << endl;
+#ifdef _WIN32
 	ShellAboutW(NULL, L"My App#Cool", L"Welcome to my app.", NULL);
+#endif
 	if (e.getHappy()) {
 		cout << "e is happy" << endl;
 	} else {
