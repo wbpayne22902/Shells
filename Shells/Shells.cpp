@@ -5,11 +5,11 @@
 #include <iostream>
 using std::cout, std::endl;
 int main() {
-	hoo e(22);
+	pig e(22);
 	e.setHappy(true);
-	hoo n("Queen");
-	hoo* l = new hoo("Pope");
-	hoo* pope = new hoo("Sir Poopy Pants of Charlottesville Virginia USA", 22, false);
+	pig n("Queen");
+	pig* l = new pig("Pope");
+	pig* pope = new pig("Sir Poopy Pants of Charlottesville Virginia USA", 22, false);
 	e.setName("King");
 	l->setAge(98);
 	l->Poop();
