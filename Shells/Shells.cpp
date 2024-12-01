@@ -15,6 +15,7 @@ int main() {
 	l->Poop();
 	cout << "Hello World!" << endl;
 	cout << "The e's name is " << e.getName() << endl;
+	std::println("The name is {}", e.getName());
 	cout << "The n's name is " << n.getName() << endl;
 	cout << "The l's name is " << l->getName() << " and age is " << l->getAge() << endl;
 #ifdef _WIN32
@@ -26,11 +27,14 @@ int main() {
 		cout << "e is not happy!" << endl;
 	}
 	e.toggleHappy();
+	
 	if (e.getHappy()) {
 		cout << "e is happy!" << endl;
 	} else {
 		cout << "e is not happy." << endl;
+		
 	}
+	cout << "Hello to you!" << endl;
 	delete l;
 	delete pope;
 }
