@@ -16,6 +16,7 @@ int main() {
 	cout << "Hello World!" << endl;
 	cout << "The e's name is " << e.getName() << endl;
 	std::println("The name is {}", e.getName());
+	std::println(stderr, "Hello from me!");
 	cout << "The n's name is " << n.getName() << endl;
 	cout << "The l's name is " << l->getName() << " and age is " << l->getAge() << endl;
 #ifdef _WIN32
